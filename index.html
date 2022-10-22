@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>website</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <h1>Food Nutrition Lookup</h1>
+        <p>Welcome to Food Nutrition Lookup. Enter a food item below and we will search for its nutritional values in the USDA Food Database.</p>
+        
+        <form>
+            <fieldset>
+                <legend>Lookup: </legend>
+                <label for="food">Food: </label><br>
+                <input type="text" id="food" name="food">
+                <input type="submit" value="Submit" onclick="get();">
+            </fieldset>
+        </form>
+
+        <fieldset>
+            <legend>Nutritional data: </legend>
+        </fieldset>
+
+        <script src="main.js"></script>
+    </body>
+</html>
